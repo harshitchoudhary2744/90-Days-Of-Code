@@ -10,7 +10,6 @@ body {
     color: white;
 }
 
-/* --- MAIN NAVBAR --- */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -67,22 +66,21 @@ body {
     text-align: center;
 }
 
-/* --- THE "MORE" PART: MEDIA QUERIES --- */
-/* This code only runs on phones (screens smaller than 768px) */
+
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column; /* Stack logo and links vertically */
+        flex-direction: column; 
         gap: 20px;
         padding: 20px;
     }
 
     .nav-links {
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: column; 
         text-align: center;
         gap: 15px;
     }
 
     .hire-btn {
-        width: 100%; /* Make button full width on phone */
+        width: 100%; 
     }
 }
