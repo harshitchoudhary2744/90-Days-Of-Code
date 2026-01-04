@@ -21,3 +21,5 @@ plt.ylabel('Price')
 plt.savefig('chart_day10.png')
 
 print("Success! Image saved as 'chart_day10.png'.")
+
+# Final check for Day 10 visualization
